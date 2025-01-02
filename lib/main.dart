@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'myApp',
       initialRoute: '/',
-      getPages: [GetPage(name: '/', page: () => Homescreen())],
+      getPages: [
+        GetPage(name: '/', page: () => Homescreen())
+        // GetPage(name: '/', page: () => Homescreen())
+      ],
     );
     // return MaterialApp(
     //   title: 'Flutter Demo',
