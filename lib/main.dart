@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:visionplus/presentation/homescreen/homescreen.dart';
-import 'package:visionplus/presentation/navbar/navbar_screen.dart';
+import 'package:visionplus/module/homescreen/screen/homescreen.dart';
+import 'package:visionplus/module/navbar/screen/navbar_screen.dart';
 
 void main() {
   runApp(const MyApp());
